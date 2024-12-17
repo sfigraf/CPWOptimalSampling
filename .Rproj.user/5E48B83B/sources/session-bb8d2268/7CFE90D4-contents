@@ -1,0 +1,6 @@
+common <- intersect(names(all_sites), names(snapped_sites))
+x <- (all_sites[,common])
+y <- (snapped_sites[,common])
+library(tidyverse)
+z <- left_join(all_sites, snapped_sites)
+all_sites <- merge(stream_pts, streams)

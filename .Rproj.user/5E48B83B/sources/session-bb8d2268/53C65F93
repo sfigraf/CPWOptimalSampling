@@ -1,0 +1,24 @@
+{
+    "id": "53C65F93",
+    "path": "~/CPWOptimalSampling/R_Code/3_RunCrossVal.R",
+    "project_path": "R_Code/3_RunCrossVal.R",
+    "type": "r_source",
+    "hash": "725451166",
+    "contents": "",
+    "dirty": false,
+    "created": 1734460847259.0,
+    "source_on_save": false,
+    "relative_order": 12,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1734364173,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1734364173,
+    "read_only": false,
+    "read_only_alternatives": []
+}
