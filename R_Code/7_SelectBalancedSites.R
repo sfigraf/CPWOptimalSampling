@@ -20,7 +20,7 @@ setwd("~/CPWOptimalSampling/Output_Files/7_SelectBalancedSites")  # Fill in as a
 #still need dependencies below though
 install.packages("C:/Users/graffs.NATURENET.001/Downloads/spsurvey_3.3.tar.gz", repos = NULL, type = "source")
 
-
+detach("package:foreign", unload=TRUE)
 
 ## LIBRARIES:
 # library(fields)  # for cover.designs() function
@@ -33,12 +33,12 @@ install.packages("C:/Users/graffs.NATURENET.001/Downloads/spsurvey_3.3.tar.gz", 
 
 # install old version of spsurvey
 # old dependencies for spsurvey
-install.packages("Hmisc")
+#install.packages("Hmisc")
 "https://cran.r-project.org/src/contrib/Archive/Hmisc/Hmisc_3.17-4.tar.gz"
 # geos_loc <- "/Volumes/CPW_Work/Old_R_packages/rgeos_0.6-4.tar.gz"
 # install.packages("/Volumes/CPW_Work/Old_R_packages/rgeos_0.6-4.tar.gz", repos=NULL, type="source")
 # # SG spot: 
-install.packages("C:/Users/graffs.NATURENET.001/Downloads/rgeos_0.6-4.tar.gz", repos = NULL, type = "source")
+#install.packages("C:/Users/graffs.NATURENET.001/Downloads/rgeos_0.6-4.tar.gz", repos = NULL, type = "source")
 #on R version 3.5, might need older version of rtools as well in order to compile packages
 #https://cran.r-project.org/bin/windows/Rtools/history.html
 
@@ -48,7 +48,7 @@ install.packages("C:/Users/graffs.NATURENET.001/Downloads/rgeos_0.6-4.tar.gz", r
 # install.packages("C:/Users/graffs.NATURENET.001/Downloads/sp_1.2-3.tar.gz", repos = NULL, type = "source")
 
 library(spsurvey)
-# library(foreign) # read .dbf files
+library(foreign) # read .dbf files
 library(sp)
 library(sf)
 

@@ -1018,11 +1018,11 @@ SampOccasions_wNSPP <- unique( merge(SampOccasions, nspp.table) )
 png("EDA/NSPPhist.png", width=1024, height=768)
 par(mar=c(6, 7, 4, 4))
 ##SG: this column NSPP doesn't exist, we don't know why
-hist(SampOccasions_wNSPP$NSPP, xlab="", xaxt="n", las=1, breaks=16,
-     main="Number of species detected per sampling occasion", ylab="",
-     cex.lab=3, cex.main=3, cex.axis=3, col="gray")
-axis(1, at=seq(0, 15, by=5), cex.axis=3, line=0)
-mtext("No. of sampling occasions", 2, line=4.5, cex=3)
+# hist(SampOccasions_wNSPP$NSPP, xlab="", xaxt="n", las=1, breaks=16,
+#      main="Number of species detected per sampling occasion", ylab="",
+#      cex.lab=3, cex.main=3, cex.axis=3, col="gray")
+# axis(1, at=seq(0, 15, by=5), cex.axis=3, line=0)
+# mtext("No. of sampling occasions", 2, line=4.5, cex=3)
 #mtext("No. of fish detected", 1, line=4, cex=3)
 dev.off()
 #
